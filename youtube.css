@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner {
+    width: 100%;
+    height: 56px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+    padding: 0px 16px 0px 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+}
+
+.start {
+    width: 185px;
+    height: 40px;
+    margin-left: -27px;
+}
+
+.start ul {
+    list-style: none;
+}
+
+.start>ul {
+    display: flex;
+    justify-content: center;
+}
+
+.start>ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 8px 8px 40px;
+    color: black;
+}
+
+.menu {
+    margin-right: -25px;
+}
+
+.logo {
+    width: 150px;
+    height: 24px;
+}
+
+.center {
+    max-width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    margin-left: 22px;
+    margin-top: 1px;
+}
+
+.center input {
+    border: thin solid rgb(161, 161, 161);
+    width: 575px;
+    height: 30px;
+    padding-left: 10px;
+    box-shadow: none;
+    outline: 0;
+}
+
+.center img .bottom {
+    padding: 0px 4px;
+}
+
+.bottom {
+    margin-left: -30px;
+}
+
+.center button {
+    color: rgb(124, 122, 122);
+    border: 1px solid rgb(150, 150, 150);
+    width: 65px;
+    height: 30px;
+    background: rgb(245, 241, 241);
+    cursor: pointer;
+    box-shadow: none;
+    outline: 0;
+}
+
+button:hover {
+    color: rgb(74, 73, 73);
+}
+
+.end {
+    width: 225px;
+    height: 40px;
+    margin-right: 28px;
+}
+
+.end ul {
+    list-style: none;
+}
+
+.end>ul {
+    display: flex;
+    justify-content: center;
+}
+
+.end>ul li a {
+    display: block;
+    padding: 10px 15px;
+}
+
+.end>ul li a {
+    color: rgb(3, 3, 3);
+}
+
+.name {
+    margin-top: -5px;
+    border-radius: 15px;
+}
