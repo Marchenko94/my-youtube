@@ -4,7 +4,7 @@
 }
 
 .conteiner {
-    width: 100%;
+    /* width: 100%; */
     height: 56px;
     font-family: Roboto, Arial, sans-serif;
     font-size: 10px;
@@ -95,7 +95,7 @@ button:hover {
 .end {
     width: 225px;
     height: 40px;
-    margin-right: 28px;
+  
 }
 
 .end ul {

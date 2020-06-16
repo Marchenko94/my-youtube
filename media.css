@@ -27,4 +27,8 @@
     .end>ul li a {
         padding: 10px 2px;
     }
+    .end{
+        width: 170px;
+        padding-right: 4px;
+    }
 }
