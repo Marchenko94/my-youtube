@@ -8,9 +8,12 @@
     <link href="youtube.css" rel="stylesheet" type="text/css">
     <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
     <link href="media.css" rel="stylesheet" type="text/css">
+    <script src="youtube.js"></script>
+
 </head>
 
 <body>
+
     <div class="conteiner">
         <div class="start">
             <ul>
@@ -23,8 +26,18 @@
         <div class="center">
             <input type="search" placeholder="Введите запрос">
             <a href=""><img class="bottom" src="images/klavahover.gif"></a>
-            <button title="Введите запрос" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+            <div id="search"><button title="Введите запрос" type="submit"><i class="fa fa-search"
+                        aria-hidden="true"></i></button></div>
         </div>
+        <script>
+            window.onload = function () {
+                let div = document.getElementById('search');
+                div.onclick = function () {
+                    window.alert("Пожалуйста введите значение для поиска");
+                }
+            }
+        </script>
+        
 
         <div class="end">
             <ul>
@@ -38,6 +51,9 @@
             </ul>
         </div>
     </div>
+    <script type="text/javascript">
+        window.alert("Я - JavaScript");
+    </script>
 </body>
 
 </html>
